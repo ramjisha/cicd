@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: continuous integration
 
 steps:
 - script: echo Hello, world!
