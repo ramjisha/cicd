@@ -19,8 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: SSH@0
   inputs:
-    sshEndpoint: 'mypipeline'
+    sshEndpoint: 'mycon'
     runOptions: 'commands'
     commands: 'ls'
-    interactiveSession: true
     readyTimeout: '20000'
